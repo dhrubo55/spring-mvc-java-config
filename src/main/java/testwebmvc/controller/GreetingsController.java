@@ -10,7 +10,7 @@ public class GreetingsController {
     @RequestMapping("/greetings")
     public ModelAndView greetings(@RequestParam String name){
         ModelAndView mv = new ModelAndView();
-        mv.setViewName("index.jsp");
+        mv.setViewName("greetings");
         mv.addObject("result","Greetings from Spring MVC "+name);
         return mv;
     }
