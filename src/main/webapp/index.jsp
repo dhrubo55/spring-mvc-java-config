@@ -9,7 +9,5 @@
     <input type="submit" value="Press to greet">
 </form>
 
-<p>${result}</p>
-
 </body>
 </html>
